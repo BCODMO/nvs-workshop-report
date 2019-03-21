@@ -1,6 +1,13 @@
 # nvs-workshop-report
 For writing up the NERC Vocabulary Workshop Report
 
+### Editing the documents
+Please *don't* edit in the `master` branch.
+
+Please *do* make a new code branch, make your edits there and submit a pull request.
+
+Please *don't* merge your own pull requests to the `master` branch.
+
 ### Google Docs from Workshop
 
 [NOTES](https://docs.google.com/document/d/1j7kVkvA4Zm44TJK2RuPc6mbYO1styXiHpZP4xcGYZ3s/edit)

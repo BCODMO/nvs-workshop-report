@@ -1,4 +1,16 @@
-= Gaining Efficiencies in the Transport of Structured Descriptions of Marine Data Observations between Knowledge Curators
+= Best Practices in Describing Ocean Observation Data
+
+Adam Shepherd (1);
+Pier Luigi Buttigieg (2);
+Adam Leadbetter (3);
+Doug Fils (4);
+Tara Keena (3);
+Alexandra Kokkinaki (5);
+Gwen Moncoiffe (5);
+Shannon Rauch (1);
+Rob Thomas (3).
+
+__(1) Biological and Chemical Oceanography Data Management Office, Woods Hole Oceanographic Instititution, United States of America; (2) Alfred Wegner Institute, Germany; (3) Marine Institute, Ireland; (4) ; (5) British Oceanographic Data Centre, United Kingdom.__
 
 __We seek to hold a workshop to develop an efficient and sustainable workflow to efficiently share structured descriptions of marine data observations.  The workflow will align the efforts of data curators, curators of authoritative thesauri, and knowledge modelers developing reference ontologies.  Each of the workflow’s three agents act as curators of knowledge within their own organizational structures with processes that work for governing structured data.  However, the exchange of this information between organizations creates a new virtual organization[1] that needs its own effective workflows for sending, receiving and digesting structured data.  This latter case is likely to grow more dominant in the emerging world of linked and distributed data; thus, developing stable inter-organizational workflows is a priority.  The workshop will not focus on the internal process of each agent, but on the transport vectors between agents to ensure efficient delivery and assimilation of data with respect to each agent’s internal governance needs.  As a result, the information exchange between these types of agents enables a new capability in science to deliver outcomes that meet initiatives such as United Nations - Sustainable Development Goals (SDGs)[2], Global Ocean Observing System - Essential Ocean Variables (EOVs)[3], and the Group on Earth Observations - Essential Biodiversity Variables (EBVs)[4].__
 

@@ -1,0 +1,5 @@
+== NVS version 1
+Schaap, Dick MA, and Roy K. Lowry. "SeaDataNet–Pan-European infrastructure for marine and ocean data management: unified access to distributed data sets." _International Journal of Digital Earth_ 3, no. S1 (2010): 50-69.
+
+== NVS version 2
+Leadbetter, Adam M., Roy K. Lowry, and D. Oliver Clements. "Putting meaning into NETMAR–the open service network for marine environmental data." _International Journal of Digital Earth_ 7, no. 10 (2014): 811-828.
