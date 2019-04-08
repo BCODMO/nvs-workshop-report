@@ -12,7 +12,9 @@ Rob Thomas^3^.
 
 __^1^Biological and Chemical Oceanography Data Management Office, Woods Hole Oceanographic Instititution, United States of America; ^2^Alfred Wegner Institute, Germany; ^3^Marine Institute, Ireland; ^4^Consortium of Ocean Leadership; ^5^British Oceanographic Data Centre, United Kingdom.__
 
-__We seek to hold a workshop to develop an efficient and sustainable workflow to efficiently share structured descriptions of marine data observations.  The workflow will align the efforts of data curators, curators of authoritative thesauri, and knowledge modelers developing reference ontologies.  Each of the workflow’s three agents act as curators of knowledge within their own organizational structures with processes that work for governing structured data.  However, the exchange of this information between organizations creates a new virtual organization[1] that needs its own effective workflows for sending, receiving and digesting structured data.  This latter case is likely to grow more dominant in the emerging world of linked and distributed data; thus, developing stable inter-organizational workflows is a priority.  The workshop will not focus on the internal process of each agent, but on the transport vectors between agents to ensure efficient delivery and assimilation of data with respect to each agent’s internal governance needs.  As a result, the information exchange between these types of agents enables a new capability in science to deliver outcomes that meet initiatives such as United Nations - Sustainable Development Goals (SDGs)[2], Global Ocean Observing System - Essential Ocean Variables (EOVs)[3], and the Group on Earth Observations - Essential Biodiversity Variables (EBVs)[4].__
+== Abstract
+
+__The ocean sciences have used controlled vocabularies and best practices for Linked Data on the Web to provide a common, shared descriptions of dataset parameters. The NERC Parameter Usage Vocabulary (P01) stands as a relevant, comprehensive resource for describing the parameters of a dataset enabling improved discovery and interoperability ocean data. With its well-defined structure and governance model, P01 can be adopted by new, external metadata curators at scale if an efficient and sustainable workflow to contribute new structured descriptions of marine data observations can be developed. In March 2019, a workshop took place at the Marine Institute in Dublin, Ireland to investigate this capability by aligning the efforts of data curators, curators of authoritative thesauri, and knowledge modelers developing reference ontologies…. Each of the workflow’s three agents act as curators of knowledge within their own organizational structures with processes that work for governing structured data.  However, the exchange of this information between organizations creates a new virtual organization[1] that needs its own effective workflows for sending, receiving and digesting structured data.  This latter case is likely to grow more dominant in the emerging world of linked and distributed data; thus, developing stable inter-organizational workflows is a priority.  The workshop will not focus on the internal process of each agent, but on the transport vectors between agents to ensure efficient delivery and assimilation of data with respect to each agent’s internal governance needs.  As a result, the information exchange between these types of agents enables a new capability in science to deliver outcomes that meet initiatives such as United Nations - Sustainable Development Goals (SDGs)[2], Global Ocean Observing System - Essential Ocean Variables (EOVs)[3], and the Group on Earth Observations - Essential Biodiversity Variables (EBVs)[4].__
 
 == Background
 
@@ -28,3 +30,21 @@ Information sharing, synthesis, and packaging is critical to delivering knowledg
 ** An announcement mechanism for ontologists, for thesauri curators and data curators about new models related to thesauri terms
 * An identification of a few example outcomes to test the prototype. (How do we meet a specific EOV, research theme, etc.)
 * Outline of the concept, scale, approach, and potential outcomes to appeal to funding agencies with an elevator pitch for a project
+
+== Conclusion
+
+
+
+== Acknowledgements
+
+The work described in this paper was funded through the National Science Foundation Division of Ocean Sciences award number #1435578. The workshop was kindly hosted by the Marine Institute of Ireland. 
+
+== References
+
+[1] Diviacco, P., Fox, P., Pshenichny, C., & Leadbetter, A. (2015). Collaborative Knowledge in Scientific Research Networks (pp. 1-461). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-6567-5
+
+[2] dpicampaigns. (n.d.). About the Sustainable Development Goals. Retrieved April 8, 2019, from United Nations Sustainable Development website: https://www.un.org/sustainabledevelopment/sustainable-development-goals/
+
+[3] Global Ocean Observing System - Essential Ocean Variables. (n.d.). Retrieved April 8, 2019, from http://www.goosocean.org/index.php?option=com_content&view=article&id=14&Itemid=114
+
+[4] What are EBVs? – GEO BON. (n.d.). Retrieved April 8, 2019, from https://geobon.org/ebvs/what-are-ebvs/
