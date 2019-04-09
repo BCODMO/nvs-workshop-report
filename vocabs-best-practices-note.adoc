@@ -1,30 +1,68 @@
 = Best Practices in Describing Ocean Observation Data
 
-Adam Shepherd (1);
-Pier Luigi Buttigieg (2);
-Adam Leadbetter (3);
-Doug Fils (4);
-Tara Keena (3);
-Alexandra Kokkinaki (5);
-Gwen Moncoiffe (5);
-Shannon Rauch (1);
-Rob Thomas (3).
+Adam Shepherd^1^;
+Pier Luigi Buttigieg^2^;
+Adam Leadbetter^3^;
+Doug Fils^4^;
+Tara Keena^3^;
+Alexandra Kokkinaki^5^;
+Gwen Moncoiffe^5^;
+Shannon Rauch^1^;
+Rob Thomas^3^.
 
-__(1) Biological and Chemical Oceanography Data Management Office, Woods Hole Oceanographic Instititution, United States of America; (2) Alfred Wegner Institute, Germany; (3) Marine Institute, Ireland; (4) ; (5) British Oceanographic Data Centre, United Kingdom.__
+__^1^Biological and Chemical Oceanography Data Management Office, Woods Hole Oceanographic Instititution, United States of America +
+^2^Alfred Wegner Institute, Germany +
+^3^Marine Institute, Ireland +
+^4^Consortium of Ocean Leadership +
+^5^British Oceanographic Data Centre, United Kingdom__ +
 
-__We seek to hold a workshop to develop an efficient and sustainable workflow to efficiently share structured descriptions of marine data observations.  The workflow will align the efforts of data curators, curators of authoritative thesauri, and knowledge modelers developing reference ontologies.  Each of the workflow’s three agents act as curators of knowledge within their own organizational structures with processes that work for governing structured data.  However, the exchange of this information between organizations creates a new virtual organization[1] that needs its own effective workflows for sending, receiving and digesting structured data.  This latter case is likely to grow more dominant in the emerging world of linked and distributed data; thus, developing stable inter-organizational workflows is a priority.  The workshop will not focus on the internal process of each agent, but on the transport vectors between agents to ensure efficient delivery and assimilation of data with respect to each agent’s internal governance needs.  As a result, the information exchange between these types of agents enables a new capability in science to deliver outcomes that meet initiatives such as United Nations - Sustainable Development Goals (SDGs)[2], Global Ocean Observing System - Essential Ocean Variables (EOVs)[3], and the Group on Earth Observations - Essential Biodiversity Variables (EBVs)[4].__
+=== Outline
+* answering the environment's grand challenges is difficult without interoperability between data repositories and reference ontologies_
+* _velocity of data contributed at repositories makes it difficult to scale usage parameters up to ontologies_
+* _authoritative thesaurii could play a critical role in solving the challenges between repositories and reference ontologies_
+* _in March 2019, a workshop was convened to explore the possibilities for scaling repository adoption of concepts in thesaurii and for scaling the elevation of topical thesaurii terms to reference ontologies_
+* _by vertically aligning data repositories, authoritative thesaurii, and reference ontologies, repositories inherit the semantics of reference ontologies and reference ontologies can be used to discover and integrate data form repositories for answering the grand challenges in multi-disciplinary science_
+
+== Abstract
+
+Answering the environment's grand challenges is difficult without interoperability between data repositories and reference ontologies. However, the velocity of data contributed to repositories makes the knowledge modeling at ontologies unscalable. 
+As an authoritative thesaurus the NERC Parameter Usage Vocabulary (PUV) hosted at the Britich Oceanographic Data Centre (BODC) stands as a relevant, comprehensive resource for describing the parameters of ocean datasets. With its publicized semantic model[5], the PUV is now easier to adopt at varying levels of need across repositories. Data repository curators can suggest new PUV terms with increased efficiency, and with increasing adoption at the repository level, reference ontologies such as the Environment Ontology (ENVO) can align PUV terms to knowledge models. Ontologies can now be used to answer cross-disciplinary questions with supporting data at the repositories connected to the ontologies through thesaurii. The exchange of information that could occur through PUV creates a new virtual organization[1] that needs its own effective workflows for sending, receiving and digesting structured data. This latter case is likely to grow more dominant in the emerging world of linked and distributed data; thus, developing stable inter-organizational workflows is a priority. In March 2019 at the Marine Institute in Dublin, Ireland, a workshop brought together data curators, authoritative thesaurii, and domain ontologists to investigate this capability of developing workflows for scaling repository adoption of concepts in thesaurii and for elevating topical thesaurii terms to reference ontologies. After discussing the internal process of each agent, the workshop focused on the transport vectors between agents to ensure efficient delivery and assimilation of data with respect to each agent’s internal governance needs. The resulting workflows enable an information exchange between agents that provide a new capability in science to deliver outcomes that meet initiatives such as United Nations - Sustainable Development Goals (SDGs)[2], Global Ocean Observing System - Essential Ocean Variables (EOVs)[3], and the Group on Earth Observations - Essential Biodiversity Variables (EBVs)[4].
 
 == Background
 
-Information sharing, synthesis, and packaging is critical to delivering knowledge in multi-disciplinary contexts within research, but even more so when engaging with multi-stakeholder, cross-cutting initiatives like the EOVs, EBVs, and SDGs.  To do so, machine-readable ontologies harmonizing the meaning (i.e. semantics) behind each stakeholder’s terminology and metadata are required to deliver accurate information to these initiatives.  However, the development of high quality ontologies often cannot keep pace with the complete volume of observation types created in modern, integrative data systems. .  However, we have realized that a system combining 1) ontologies to handle semantically dense or problematic terminology and 2) authoritative thesauri to thematically describe and categorize more straightforward observations, will provide a basis to boost FAIRness in a practical and sustainable way .   In this system, ontologies interface with data curators and thesauri developers when the rich, machine-readable expressiveness of their ontologies is needed to resolve ambiguity or allow more flexible information handling than thesauri can provide. Further,  analytics term usage in the system can identify popular thesauri terms as high-value targets for ontologies to expand on. .  Consequently, the most active, day-to-day interface in this system is that between data curators and thesauri. Here, there is a need for efficiency gains that respect the governance processes of the thesauri, but deliver expedited results for data curators, leveraging tools for automatic term creation along constrained semantic frameworks (which ease coordination with ontology developers). As a result, the thesauri become the structured glue between instance data held by curators and the reference ontologies for delivering the outcomes required by SDGs, EOVs, and research themes.
+The ocean sciences have a long history of using controlled vocabularies and best practices for Linked Data on the Web to describe dataset parameters[6]. ... Information sharing, synthesis, and packaging is critical to delivering knowledge in multi-disciplinary contexts within research, but even more so when engaging with multi-stakeholder, cross-cutting initiatives like the EOVs, EBVs, and SDGs.  To do so, machine-readable ontologies harmonizing the meaning (i.e. semantics) behind each stakeholder’s terminology and metadata are required to deliver accurate information to these initiatives.  However, the development of high quality ontologies often cannot keep pace with the complete volume of observation types created in modern, integrative data systems. However, we have realized that a system combining 1) ontologies to handle semantically dense or problematic terminology and 2) authoritative thesauri to thematically describe and categorize more straightforward observations, will provide a basis to boost FAIRness in a practical and sustainable way .   In this system, ontologies interface with data curators and thesauri developers when the rich, machine-readable expressiveness of their ontologies is needed to resolve ambiguity or allow more flexible information handling than thesauri can provide. Further,  analytics term usage in the system can identify popular thesauri terms as high-value targets for ontologies to expand on. .  Consequently, the most active, day-to-day interface in this system is that between data curators and thesauri. Here, there is a need for efficiency gains that respect the governance processes of the thesauri, but deliver expedited results for data curators, leveraging tools for automatic term creation along constrained semantic frameworks (which ease coordination with ontology developers). As a result, the thesauri become the structured glue between instance data held by curators and the reference ontologies for delivering the outcomes required by SDGs, EOVs, and research themes.
+
+
 
 == Expected Results
 
 * A prototype for information exchange pathways and synchronized activity between the three agents
 ** A workflow for data curators to operate within the thesauri framework to constructing the elements of an observations to consistently arrive at existing terms of the, at least, the components for minting a new term
 ** An	 expedient transport mechanism between data curators and thesauri for initiating the minting of new terms and harvesting the newly minted term by the curators.
-** A defined mechanism for delivering groups of thesauri terms to ontologists that can be used to extend reference ontologies while preserving links to thesauri 
+** A defined mechanism for delivering groups of thesauri terms to ontologists that can be used to extend reference ontologies while preserving links to thesauri
 ** A defined mechanism for data and thesauri curators to request ontologists to support them unpacking and creating ontology classes for semantically dense or problematic terms to ensure clarity across disciplines and stakeholders
 ** An announcement mechanism for ontologists, for thesauri curators and data curators about new models related to thesauri terms
 * An identification of a few example outcomes to test the prototype. (How do we meet a specific EOV, research theme, etc.)
 * Outline of the concept, scale, approach, and potential outcomes to appeal to funding agencies with an elevator pitch for a project
+
+== Conclusion
+
+
+
+== Acknowledgements
+
+The work described in this paper was funded through the National Science Foundation Division of Ocean Sciences award number #1435578. The workshop was kindly hosted by the Marine Institute of Ireland. 
+
+== References
+
+[1] Diviacco, P., Fox, P., Pshenichny, C., & Leadbetter, A. (2015). Collaborative Knowledge in Scientific Research Networks (pp. 1-461). Hershey, PA: IGI Global. doi:10.4018/978-1-4666-6567-5
+
+[2] dpicampaigns. (n.d.). About the Sustainable Development Goals. Retrieved April 8, 2019, from United Nations Sustainable Development website: https://www.un.org/sustainabledevelopment/sustainable-development-goals/
+
+[3] Global Ocean Observing System - Essential Ocean Variables. (n.d.). Retrieved April 8, 2019, from http://www.goosocean.org/index.php?option=com_content&view=article&id=14&Itemid=114
+
+[4] What are EBVs? – GEO BON. (n.d.). Retrieved April 8, 2019, from https://geobon.org/ebvs/what-are-ebvs/
+
+[5] Moncoiffé, G., & Kokkinaki, A. (2018). The BODC Parameter Usage Vocabulary (PUV) semantic model exposed. Bollettino Di Geofisica, Vol. 59, Supplement 1, 36. Retrieved from http://www3.ogs.trieste.it/bgta/provapage.php?id_articolo=757
+
+[6] Leadbetter, A. M. (2015). Linked Ocean Data. The Semantic Web in Earth and Space Science. Current Status and Future Directions, 20, 11–31. doi:10.3233/978-1-61499-501-2-11
