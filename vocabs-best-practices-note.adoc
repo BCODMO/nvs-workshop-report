@@ -46,9 +46,7 @@ The ocean sciences have a long history of using controlled vocabularies and best
 * Outline of the concept, scale, approach, and potential outcomes to appeal to funding agencies with an elevator pitch for a project
 
 == Conclusion
-
-
-
+An initial list of relevant tools that expose the semantic model of the parameter usage vocabulary of NVS, was created, in order for data curators to provide feedback for a better user experience. These tools are mainly used for either the mapping of a local  data curator term to a PUV term or the minting of a new term to the existing PUV hierarchy.  
 == Acknowledgements
 
 The work described in this paper was funded through the National Science Foundation Division of Ocean Sciences award number #1435578. The workshop was kindly hosted by the Marine Institute of Ireland. 
